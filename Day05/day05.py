@@ -32,9 +32,9 @@ def suba(cc):
 
 f = open('input.txt','r')
 ins = f.read()
-
+#day051
 print(findlen(ins))
-
+#day052
 print(min(list(map(findlen,map(suba,['[' + chr(n)+chr(n+32) + ']' for n in range(65,65+26)])))))
 
 
