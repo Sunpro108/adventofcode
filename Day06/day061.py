@@ -34,6 +34,7 @@ for coord in arrCoord:
 listDists = np.array(listDists)
 
 ## day061
+## 
 listdist = []
 for i in range(bottom+1):
     for j in range(right+1):
